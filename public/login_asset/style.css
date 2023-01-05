@@ -1,0 +1,155 @@
+#landbg {
+    background-image: url(login_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#logo{
+    position: absolute;
+    height: auto;
+    width:20%;
+    max-width: 100%;
+    margin:0;
+    padding:0;
+}
+
+
+@media screen and (max-width:1094px) {
+    .topmenu1{
+        font-family: Poppins;
+        font-size: 3vw;
+        position: absolute;
+        top: 12px;
+        right: 17%;
+        margin:0;
+        padding:0;
+    }
+    .topmenu2{
+        font-family: Poppins;
+        font-size: 3vw;
+        position: absolute;
+        top: 12px;
+        right: 26%;
+        margin:0;
+        padding:0;
+    }
+    .uname{
+        font-family: Poppins;
+        font-size: 2.5vw;
+        position: absolute;
+        top: 22%;
+        right: 14%;
+        background-color: #F2EBEB;
+        width: 32%;
+        margin:0;
+        padding:0;
+    }
+    .pw{
+        font-family: Poppins;
+        font-size: 2.5vw;
+        position: absolute;
+        background-color: #F2EBEB;
+        top: 31%;
+        right: 14%;
+        width: 32%;
+        margin:0;
+        padding:0;
+    }
+    .btnimg{
+        font-family: Poppins;
+        top: 40%;
+        position: absolute;
+        right: 14%;
+        margin:0;
+        padding:0;
+        border: none;
+        height: auto;
+        width: 32%;
+    }
+    .toregister{
+        position: absolute;
+        right:12%;
+        top:49%;
+        font-family: Poppins;
+        font-size: 2vw;
+    }
+    .toregistera{
+        
+        font-family: Poppins;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+.noborder{
+    border:none;
+}
+@media screen and (min-width:1095px) {
+    
+    .topmenu1{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 12px;
+        right: 17%;
+        margin:0;
+        padding:0;
+    }
+    .topmenu2{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 12px;
+        right: 26%;
+        margin:0;
+        padding:0;
+    }
+    .uname{
+        font-family: Poppins;
+        font-size: 1.9vw;
+        position: absolute;
+        top: 39%;
+        right: 14%;
+        background-color: #F2EBEB;
+        width: 27%;
+        margin:0;
+        padding:0;
+    }
+    .pw{
+        font-family: Poppins;
+        font-size: 1.9vw;
+        position: absolute;
+        background-color: #F2EBEB;
+        top: 51%;
+        right: 14%;
+        width: 27%;
+        margin:0;
+        padding:0;
+    }
+    .btnimg{
+        font-family: Poppins;
+        top: 67%;
+        position: absolute;
+        right: 14%;
+        margin:0;
+        padding:0;
+        border: none;
+        height: auto;
+        width: 27%;
+    }
+    .toregister{
+        position: absolute;
+        right:18.5%;
+        top:83.5%;
+        font-family: Poppins;
+        font-size: 1vw;
+    }
+    .toregistera{
+        
+        font-family: Poppins;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+a{
+    text-decoration: none;
+    color:black;
+}

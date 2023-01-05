@@ -1,0 +1,265 @@
+.bgg {
+    background-image: url(regbg.png);
+    background-size: cover;
+    }
+    .br0{
+        border-radius: 0;
+    }
+    
+    .divnone{
+        background-image: none;
+        background-color: white;
+    }
+#logo{
+    position: absolute;
+    height: auto;
+    width:20%;
+    max-width: 100%;
+    margin:0;
+    padding:0;
+}
+.inform{
+    border: 0;
+    margin:0;
+    padding:0;
+    background-color: #F2EBEB;
+}
+.popin{
+    font-family: Poppins;
+}
+.frm{
+    
+        background-color: #F2EBEB;
+}
+x-label{
+    font-family: Poppins;  
+}
+x-input{
+    font-family: Poppins;
+}
+.mid{
+    text-align: center;
+    font-size: xx-large;
+}
+.mids{
+    text-align: center;
+}
+.btimg{
+    height: auto;
+    width: 100%;
+}
+@media screen and (max-width:1094px) {
+    .topmenu1{
+        font-family: Poppins;
+        font-size: 3vw;
+        position: absolute;
+        top: 12px;
+        right: 17%;
+        margin:0;
+        padding:0;
+    }
+    .topmenu2{
+        font-family: Poppins;
+        font-size: 3vw;
+        position: absolute;
+        top: 12px;
+        right: 26%;
+        margin:0;
+        padding:0;
+    }
+    .uname{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 15%;
+        right: 38.5%;
+        background-color: #F2EBEB;
+        width: 23%;
+        margin:0;
+        padding:0;
+        border:0;
+    }
+    .email{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 21%;
+        right: 38.5%;
+        background-color: #F2EBEB;
+        width: 23%;
+        margin:0;
+        padding:0;
+    }
+    .pw{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        background-color: #F2EBEB;
+        top: 27%;
+        right: 38.5%;
+        width: 23%;
+        margin:0;
+        padding:0;
+    }
+    .repw{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        background-color: #F2EBEB;
+        top: 33%;
+        right: 38.5%;
+        width: 23%;
+        margin:0;
+        padding:0;
+    }
+    .btnimg{
+        font-family: Poppins;
+        top: 44%;
+        position: absolute;
+        right: 38.5%;
+        margin:0;
+        padding:0;
+        border: none;
+        height: auto;
+        width: 23%;
+    }
+    .tologin{
+        position: absolute;
+        right:40.5%;
+        top:48%;
+        font-family: Poppins;
+        font-size: 1vw;
+    }
+    .tologina{
+        
+        font-family: Poppins;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    a {
+        color: #0d6efd;
+        text-decoration: underline
+    }
+    a:hover {
+        color: #0a58ca
+    }
+    
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none
+}
+    #termcek{
+        font-size: 1vw;
+            position: absolute;
+            top: 38%;
+            right: 38%;
+            margin:0;
+            padding:0;
+    }
+}
+.noborder{
+    border:none;
+}
+@media screen and (min-width:1095px) {
+    
+    .topmenu1{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 12px;
+        right: 17%;
+        margin:0;
+        padding:0;
+    }
+    .topmenu2{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 12px;
+        right: 26%;
+        margin:0;
+        padding:0;
+    }
+    .uname{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 28%;
+        right: 38.5%;
+        background-color: #F2EBEB;
+        width: 23%;
+        margin:0;
+        padding:0;
+        border:0;
+    }
+    .email{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 38%;
+        right: 38.5%;
+        background-color: #F2EBEB;
+        width: 23%;
+        margin:0;
+        padding:0;
+    }
+    .pw{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        background-color: #F2EBEB;
+        top: 48%;
+        right: 38.5%;
+        width: 23%;
+        margin:0;
+        padding:0;
+    }
+    .repw{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        background-color: #F2EBEB;
+        top:58%;
+        right: 38.5%;
+        width: 23%;
+        margin:0;
+        padding:0;
+    }
+    .btnimg{
+        font-family: Poppins;
+        top: 78%;
+        position: absolute;
+        right: 38.5%;
+        margin:0;
+        padding:0;
+        border: none;
+        height: auto;
+        width: 23%;
+    }
+    .tologin{
+        position: absolute;
+        right:40.5%;
+        top:88%;
+        font-family: Poppins;
+        font-size: 1vw;
+    }
+    .tologina{
+        
+        font-family: Poppins;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #termcek{
+        font-size: 0.95vw;
+            position: absolute;
+            top: 68%;
+            right: 39%;
+            margin:0;
+            padding:0;
+    }
+}
+a{
+    text-decoration: none;
+    color:black;
+}

@@ -1,0 +1,57 @@
+#landbg {
+    background-image: url(landing_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#logo{
+    position: absolute;
+    height: auto;
+    width:20%;
+    max-width: 100%;
+    margin:0;
+    padding:0;
+}
+@media screen and (max-width:799px) {
+    .topmenu1{
+        font-family: Poppins;
+        font-size: 3vw;
+        position: absolute;
+        top: 12px;
+        right: 17%;
+        margin:0;
+        padding:0;
+    }
+    .topmenu2{
+        font-family: Poppins;
+        font-size: 3vw;
+        position: absolute;
+        top: 12px;
+        right: 26%;
+        margin:0;
+        padding:0;
+    }
+}
+@media screen and (min-width:800px) {
+    .topmenu1{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 12px;
+        right: 17%;
+        margin:0;
+        padding:0;
+    }
+    .topmenu2{
+        font-family: Poppins;
+        font-size: 2vw;
+        position: absolute;
+        top: 12px;
+        right: 26%;
+        margin:0;
+        padding:0;
+    }
+}
+a{
+    text-decoration: none;
+    color:black;
+}
